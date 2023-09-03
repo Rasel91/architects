@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* sharde css  */
+.title_light_gray {
+  color: #727272;
+  line-height: 26px;
+}
+
+.btn_primary {
+  width: 180px;
+  height: 64px;
+  border-radius: 8px;
+  background: #ff900e;
+  margin: 20px;
+}
+/* header css start */
+
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+nav {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+ul > li > a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+.banner {
+  width: 862px;
+  margin: 0 auto;
+}
+.banner_text {
+  text-align: center;
+}
+.banner_img {
+  width: 1440px;
+  height: 700px;
+  border-radius: 8px;
+  width: 100%;
+}
