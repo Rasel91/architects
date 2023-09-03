@@ -55,6 +55,7 @@ ul > li > a {
 }
 
 /* Features css start */
+
 .featutes_text {
   margin-left: 4.2rem;
 }
@@ -86,5 +87,56 @@ ul > li > a {
   color: #ff900e;
   font-size: 45px;
   font-weight: 700;
+}
+
+.feature2 {
+  /* padding: 50px; */
+  /* width: 1440px; */
+  margin: 0 70px;
+  display: flex;
+}
+.featuer2-text {
+  margin: 70px;
+}
+.feature2 > img {
+  height: 70%;
+}
+.featuer2-header {
+  margin: 20px 0;
+}
+.card {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.card_title {
+  color: #131313;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.experience_box {
+  margin: -150px;
+  width: 342px;
+  height: 200px;
+  flex-shrink: 0;
+  text-align: center;
+  border-radius: 8px;
+  background: #ff900e;
+}
+.experience_box_title {
+  color: #fff;
+
+  font-size: 4rem;
+  padding: 10px;
+  font-weight: 700;
+}
+.box-title {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 40px;
 }
 /* Features css end */
